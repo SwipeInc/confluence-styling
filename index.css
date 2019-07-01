@@ -1,0 +1,99 @@
+.table-of-contents ul li {
+    margin-bottom: 3px;
+}
+.pagetitle .site-title {
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+
+/* Hide the site title in non-pdf view */
+.site-title {
+	display: none !important;
+}
+.pagetitle .site-title {
+	display: block !important;
+}
+
+/* Hide the page default title */
+.pagetitle h1, .pagetitle h2, .pagetitle h3, .pagetitle h4, .pagetitle h5, .pagetitle h6 { 
+	display: none !important; 
+}
+
+/* Display all titles on page within cells */
+.cell h1, .cell h2, .cell h3, .cell h4, .cell h5, .cell h6 { 
+	display: block !important; 
+}
+
+/* Allow page breaks for the PDF */
+.page-break {
+	page-break-before: always !important;
+	display: block !important;
+}
+
+
+/* Fix some styling issues for the PDF */
+.stretch-full-table table {
+   	width: 100% !important;
+   	min-width: 100% !important;
+}
+
+.primary-title {
+    background-color: #f0f0f0 !important;
+    margin-top: 50px !important;
+}
+.primary-title h1, .primary-title h2, .primary-title h3, .primary-title h4, .primary-title h5, .primary-title h6 {
+   	color: #3e3e3e !important;
+    padding: 20px 0 !important;
+    border: 1px solid #e0e0e0 !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+.custom-code-block {
+    font-size: 13px !important;
+    line-height: 17px !important;
+    border: 1px solid gainsboro !important;
+    margin: 20px 0 !important;
+    padding: 20px !important;
+    border-radius: 4px !important;
+    background-color: whitesmoke !important;
+	display: none !important;
+}
+
+.format-code {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/** Content Block **/
+.content-block {}
+.content-block table {
+   	width: 100% !important;
+   	min-width: 100% !important;
+}
+.content-block .title {
+    background-color: #f7f7f7 !important;
+    margin-top: 0px !important;
+}
+.content-block h1, 
+.content-block h2, 
+.content-block h3, 
+.content-block h4, 
+.content-block h5, 
+.content-block h6 {
+   	color: #3e3e3e !important;
+    padding: 20px 0 !important;
+    border: 1px solid #e0e0e0 !important;
+	margin-top: 0px !important;
+	margin-bottom: 30px !important;
+}
+.content-block .content {
+	color: red;
+}
